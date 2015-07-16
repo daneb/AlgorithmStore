@@ -4,7 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		MergeSort ms = new MergeSort();
-		ms.run_MergeSort();
+		int[] a = new int[]{14, 7, 3, 12, 9, 11, 6, 2};
+		ms.sort(a);
+		for(int i : a)
+		{
+			System.out.println(i);
+		}
 	}		
 	
 	public static void run_BinarySearch()
