@@ -3,7 +3,8 @@ package codedtrue.com;
 public class Main {
 
 	public static void main(String[] args) {
-		run_BinarySearch();
+		MergeSort ms = new MergeSort();
+		ms.run_MergeSort();
 	}		
 	
 	public static void run_BinarySearch()
@@ -13,5 +14,6 @@ public class Main {
 		int result = BinarySearch.doSearch(primes, targetValue);
 		System.out.println("Did it work? "+ (result == 20));
 	}
+	
 
 }

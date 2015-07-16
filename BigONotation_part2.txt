@@ -1,0 +1,19 @@
+// BigONotation - Part 2
+
+0(1) - Order of 1:
+It will execute in same amount of time, despite the amount of data (no matter how big the array is).
+
+0(N) - Order of N:
+Time to complete relational to input. This is like a linear search. 
+
+0(N^2) - Order of N cubed:
+Time to complete will be relational to the amount of data. Like Bubble Sort (nested iterations).
+One trip through is an iteration of N.
+A nested loop is also. 
+Bubble sort/Insertion/Selection sort get’s dramatically slower
+
+Too be avoided.
+
+0(Log n) - Order of Log N:
+Binary search (as log N or N) increased, the log N get’s slower and reduces dramatically. They are very efficient. The amount of data is halved each time. 
+Check the graph
