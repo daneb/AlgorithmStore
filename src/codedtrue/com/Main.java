@@ -3,6 +3,11 @@ package codedtrue.com;
 public class Main {
 
 	public static void main(String[] args) {
+		run_MergeSort();
+	}
+	
+	public static void run_MergeSort()
+	{
 		MergeSort ms = new MergeSort();
 		int[] a = new int[]{14, 7, 3, 12, 9, 11, 6, 2};
 		ms.sort(a);
@@ -10,7 +15,7 @@ public class Main {
 		{
 			System.out.println(i);
 		}
-	}		
+	}
 	
 	public static void run_BinarySearch()
 	{
